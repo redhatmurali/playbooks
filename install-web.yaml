@@ -1,7 +1,7 @@
 ---
 - name: Install Apache Web Server
-  hosts: web-server 
-  remote_user: maprangzth
+  hosts: all
+  remote_user: root
   tasks: 
   - name: Ensure httpd package is latest 
     yum: 
